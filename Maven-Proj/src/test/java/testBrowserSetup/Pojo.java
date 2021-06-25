@@ -15,7 +15,7 @@ public class Pojo {
 		WebDriver driver=new ChromeDriver();
 		return driver;
 	}
-	public static WebDriver openFirefoxDriver()
+	public static WebDriver openFirefoxBrowser()
 	{
 		ConfigFileReader configFileReader= new ConfigFileReader();
 		System.setProperty("webdriver.gecko.driver", configFileReader.getFirefoxDriverPath());

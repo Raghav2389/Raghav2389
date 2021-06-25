@@ -38,7 +38,7 @@ public class TestBuy {
 		}
 		else if(browser.equalsIgnoreCase("Firefox"))
 		{
-			driver=Pojo.openFirefoxDriver();
+			driver=Pojo.openFirefoxBrowser()
 		}
 		driver.get(configFileReader.getApplicationUrl());
 		driver.manage().window().maximize();

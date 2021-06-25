@@ -28,7 +28,6 @@ public class ExtentTestNGIReporterListener implements IReporter {
     private static final String FILE_NAME = "Extent.html";
     
     private ExtentReports extent;
-
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
         init();
         

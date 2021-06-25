@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.classes.TestAddWatchList">
+      <class name="com.test.classes.TestHome">
         <methods>
-          <include name="beforeClass"/>
-          <include name="verifyAddBtn" invocation-numbers="0 1"/>
-          <include name="afterClass"/>
+          <include name="logoutAccount"/>
+          <include name="launchBrowser"/>
+          <include name="verifydashboard"/>
+          <include name="clearObjects"/>
+          <include name="loginToUserAccount"/>
+          <include name="createObject"/>
+          <include name="closedBrowser"/>
         </methods>
-      </class> <!-- com.test.classes.TestAddWatchList -->
+      </class> <!-- com.test.classes.TestHome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
